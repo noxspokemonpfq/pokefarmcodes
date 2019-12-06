@@ -1,0 +1,96 @@
+[sc=content]
+
+[sc=title]Journal Title[/sc]
+
+[sc=textbox]
+[hide=About Me]
+[sc=label]General Info:[/sc]
+- Name: 
+- Location: 
+- Sign: 
+- Pronouns: 
+- Identity: 
+
+[sc=label]Favorites:[/sc]
+- Favorite Animals:
+
+- Favorite Books: 
+
+- Favorite Shows: 
+
+- Favorite Past Times: 
+
+- Feel Free to add more
+
+[/hide][/sc][sc=textbox]
+[sc=tabbed_interface horizontal]
+[ul]
+[li]Tab[/li]
+[li]Tab[/li]
+[li]Tab[/li][/ul][sc=tab-active][sc=txt]put anything in here. you don't need to keep all the things coded here, this is just to show you how each element will look!
+[b]bold[/b] [i]italics[/i] [u]underlined[/u] [url=https://pokefarm.com]LINK[/url][/sc][/sc][sc=tab][sc=txt][table]
+[tr]
+[th]table header[/th]
+[th]table header[/th]
+[/tr]
+[tr]
+[td]item[/td]
+[td]item[/td]
+[/tr]
+[/table][/sc][/sc][sc=tab][sc=txt]add some more text or whatever you feel, you can even add some more tabs if you want[/sc][/sc][/sc]
+[/sc]
+[sc=label]Accordian Style[/sc]
+[sc=textbox][display=Display Box]
+[accordion]
+[a-section=Accordian 1]
+More Information
+[/a-section][a-section=Accordian 2]
+More Information
+[/a-section][a-section=Accordian 3]
+More Information
+[/a-section][/accordion]
+[/display][/sc]
+[sc=pagination][url=http://pokefarm.com/][img]https://bit.ly/2R8brYO[/img] Prev Page[/url] | [url=http://pokefarm.com/][img]https://bit.ly/2P145DB[/img][/url] | [url=http://pokefarm.com/]Next Page [img]https://bit.ly/2OCz2PJ[/img][/url][/sc]
+[sc=credit][url=https://pokefarm.com/forum/post/4935029]code[/url][/sc]
+[/sc]
+[style]
+a {text-decoration:none; color:#333333;}
+a:hover {color:#fff;text-decoration:underline;}
+
+.content {padding-top:30px;width: 100%;height: 100%;border: 10px #FEAEAD;background: url('https://bit.ly/2rEUOcw') #16242F;background-repeat: repeat; border-radius:0px 0px 10px 10px;background-size:100%;color:#fff;}
+.title {color:#012E55;font-family: 'Mistral';font-size:30px;text-align: center;}
+
+.txt {padding:10px;}
+
+.label {font-family: 'Century Gothic';font-size: 1.5em;text-align: center;}
+
+.textbox {color:#fff;font-family:'courier new';border-radius: 10px;
+.tabbed_interface {box-shadow:none;margin-left: 40px;margin-right:40px;color:#fff;border: 0px #001f36 solid;border-radius: 10px;
+ul{background-image:url('https://i.pinimg.com/564x/60/74/37/607437b0ca4dfb27d79ae09658be9f21.jpg'); background-size:100%;
+&>li {background:transparent;letter-spacing:0;font-family:'Cambria';text-align: center;border-bottom: 0px #043F6B solid;padding:10px;} 
+li img {width:12%; height:100%;}
+li:hover {cursor:pointer}}
+.tab-active {text-align:center;padding:10px;background:#0B5C91;border:0px solid #000;color:#fff;box-shadow:none;}}
+.panel {box-shadow:none;margin-left: 40px;margin-right:40px;margin-top: 10px;color:#c4dbff;border: 2px #012E55 solid;border-radius: 10px;
+&>h3 {
+a {color: #c4dbff;}
+a:hover {text-decoration:none;}
+letter-spacing:0;font-family:'Cambria';text-align: center;border-bottom: 0px #012E55 solid;background:url('https://i.pinimg.com/564x/60/74/37/607437b0ca4dfb27d79ae09658be9f21.jpg') #012E55;background-size:100%;color: #c4dbff; background-position: center;border-radius: 5px 5px 0px 0px;}
+&>div {background:#0B5C91;border-radius: 0px 0px 5px 5px;color:#fff;padding: 10px;}}}
+
+table {margin: auto;border: 2px #1A8B81 solid;}
+td {padding:5px;border: 2px #012E55 solid;}
+th {font-family:'Century Gothic';text-align:center;padding: 5px;background:#020201;border: 2px #012E55 solid;}
+
+.pagination {text-align:center;}
+.pagination a {font-family:'Arial black';font-weight: 700;color:#B0F4F3;letter-spacing:none;}
+.pagination a:hover {color:#fff;}
+.pagination a img {margin-bottom: -1px;}
+
+/* DO NOT MOVE */
+.credit {
+font-size:11px;
+position:absolute; right:5px;bottom:5px;}
+.credit a {
+color:#fff;}
+[/style]
